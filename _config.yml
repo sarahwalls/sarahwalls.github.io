@@ -1,7 +1,7 @@
 # Site settings
 title: Sarah Walls
 email: energyclinique@gmail.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "This is the personal webpage of Artist Sarah Walls living in Auckland, New Zealand dabbling in abstract art, live figures and crafting art from everyday objects. Sarah transcends from the real to the the unreal with comfortable ease."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -21,6 +21,8 @@ social:
 #    url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
+  - title: linkedin
+    url: https://www.linkedin.com/pub/sarah-walls/3a/b08/526
 
 # Postal address (add as many lines as necessary)
 address:

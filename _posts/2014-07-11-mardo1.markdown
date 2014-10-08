@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 8
+modal-id: 1
 date: 2014-07-11
 img: sarah.jpg
 alt: image-alt
