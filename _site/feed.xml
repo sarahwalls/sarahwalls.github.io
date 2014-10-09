@@ -5,8 +5,8 @@
     <description>This is the personal webpage of Artist Sarah Walls living in Auckland, New Zealand dabbling in abstract art, live figures and crafting art from everyday objects. Sarah transcends from the real to the the unreal with comfortable ease.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 09 Oct 2014 00:51:31 +1300</pubDate>
-    <lastBuildDate>Thu, 09 Oct 2014 00:51:31 +1300</lastBuildDate>
+    <pubDate>Thu, 09 Oct 2014 23:27:09 +1300</pubDate>
+    <lastBuildDate>Thu, 09 Oct 2014 23:27:09 +1300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -23,12 +23,12 @@
       </item>
     
       <item>
-        <title>Blue</title>
+        <title>Blur</title>
         <description>
 </description>
         <pubDate>Thu, 17 Jul 2014 00:00:00 +1200</pubDate>
-        <link>/web%20development/2014/07/17/blue/</link>
-        <guid isPermaLink="true">/web%20development/2014/07/17/blue/</guid>
+        <link>/web%20development/2014/07/17/blur/</link>
+        <guid isPermaLink="true">/web%20development/2014/07/17/blur/</guid>
         
         
         <category>web development</category>
