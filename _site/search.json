@@ -1,0 +1,21 @@
+[
+	
+		{
+		  "title"      : "Self Portraits",
+		  "category"   : "articles",
+      "tags"       : "self portraits and images",
+		  "url"        : "/articles/self/",
+		  "date"       : "2014-05-22 00:00:00 +1200",
+		  "shortdate"  : "May 22, 2014"
+		} ,
+	
+		{
+		  "title"      : "Life drawings",
+		  "category"   : "articles",
+      "tags"       : "life drawings and images",
+		  "url"        : "/articles/Life/",
+		  "date"       : "2013-05-22 00:00:00 +1200",
+		  "shortdate"  : "May 22, 2013"
+		} 
+	
+]

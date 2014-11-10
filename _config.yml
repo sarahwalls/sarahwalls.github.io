@@ -1,34 +1,53 @@
-# Site settings
+# Site wide configuration
+
 title: Sarah Walls
-email: sarahwalls@hotmail.co.nz
-description: "This is the personal webpage of Artist Sarah Walls living in Auckland, New Zealand dabbling in abstract art, live figures and crafting art from everyday objects. Sarah transcends from the real to the the unreal with comfortable ease."
+locale: en_US
+description: Artist
+logo: site-logo.png
+search: true
+url: http://sarahwalls.github.io
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 363A42 #80B3FF #18bc9c #363A42
-  secondary: 6DD0F2 #B0B1F7 #FD6E8A #2c3e50
-  secondary-dark: C84127 #A2122F
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-#  - title: twitter
-#    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url: https://www.facebook.com/SarahEclinique
-#  - title: stack-overflow
-#    url: http://stackoverflow.com/questions/tagged/jekyll
-#  - title: bitbucket
-#    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
-  - title: linkedin
-    url: https://www.linkedin.com/pub/sarah-walls/3a/b08/526
+# Jekyll configuration
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: 4/5 Hepburn St
-  - line: Ponsonby, Auckland NZ
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  use_coderay: false
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Site owner
+owner:
+  name: Sarah Walls
+  avatar: bio-photo.jpg
+  email: sarahwalls@hotmail.co.nz
+  disqus-shortname:
+  twitter: EnergyClinique
+  facebook: SarahEclinique
+  github: #username
+  stackexchange: #http://stackoverflow.com/users/123456/username
+  linkedin: https://www.linkedin.com/pub/sarah-walls/3a/b08/526
+  instagram: #username
+  flickr: #username
+  tumblr: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
